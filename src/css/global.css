@@ -1,0 +1,33 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.category-card {
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: translateY(-8px);
+}
+
+.category-card i,
+.category-card svg {
+    transition: 0.3s ease;
+}
+
+.category-card:hover svg {
+    transform: scale(1.1);
+}
+
+.product-card:hover{
+    transform: translateY(-8px);
+    transition: 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
